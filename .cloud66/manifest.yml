@@ -1,0 +1,12 @@
+development:
+  rails:
+    server:
+      unique_name: hobrecht-web
+      extra_packages:
+        - imagemagick
+production:
+  rails:
+    server:
+      unique_name: hobrecht-web
+      extra_packages:
+        - imagemagick
