@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/dustinboling/spree-hobrecht.git
+  revision: cc28e978267cacc70f1701e229427094ac964347
+  branch: 2-3-stable
+  specs:
+    spree_hobrecht (2.3.1)
+      spree_core (~> 2.3.1)
+
+GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: 50374cecd977f0d8464e6e22c43ecaafd8b4b97d
   branch: 2-3-stable
@@ -287,6 +295,7 @@ DEPENDENCIES
   spree (= 2.3.1)
   spree_auth_devise!
   spree_gateway!
+  spree_hobrecht!
   spring
   turbolinks
   uglifier (>= 1.3.0)
