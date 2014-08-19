@@ -1,0 +1,18 @@
+development:
+  after_symlink:
+    - source: /.cloud66/shared_spree.sh
+      destination: /tmp/shared_spree.sh
+      target: rails
+      execute: true
+      sudo: true
+      apply_during: all
+      run_on: all_servers
+production:
+  after_symlink:
+  - source: /.cloud66/shared_spree.sh
+    destination: /tmp/shared_spree.sh
+    target: rails
+    execute: true
+    sudo: true
+    apply_during: all
+    run_on: all_servers
