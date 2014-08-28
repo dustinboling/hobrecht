@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dustinboling/spree-hobrecht.git
-  revision: f8b70e425e28ff03e59cb2f14257a7a3d6357581
+  revision: 3adfd9252e43641ebcfc070fd9c71931aa0efdb3
   branch: 2-3-stable
   specs:
     spree_hobrecht (2.3.1)
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_auth_devise.git
-  revision: d003e495fd83c41ef8378f67e21d947908a03e1f
+  revision: 0be5116695a740be8c16686dd512f9405264379d
   branch: 2-3-stable
   specs:
     spree_auth_devise (2.2.0)
@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_gateway.git
-  revision: 518a2e1340f17ca383ea6cc88c756b7ec04e370a
+  revision: ced89ddf70129e4b146b7ae0b54567ae6efef143
   branch: 2-3-stable
   specs:
     spree_gateway (2.3.0.beta)
@@ -91,7 +91,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.7.1)
+    coffee-script-source (1.8.0)
     colorize (0.7.3)
     deface (1.0.0)
       colorize (>= 0.5.8)
@@ -108,7 +108,7 @@ GEM
     erubis (2.7.0)
     execjs (2.2.1)
     ffaker (1.25.0)
-    font-awesome-rails (4.1.0.0)
+    font-awesome-rails (4.2.0.0)
       railties (>= 3.2, < 5.0)
     friendly_id (5.0.4)
       activerecord (>= 4.0.0)
@@ -265,7 +265,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     truncate_html (0.9.2)
-    turbolinks (2.2.2)
+    turbolinks (2.3.0)
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
