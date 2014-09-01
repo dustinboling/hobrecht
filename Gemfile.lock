@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/dustinboling/spree-hobrecht.git
-  revision: 2d124ba2dd09e9d84ad6abb1823a0bf58b7f849e
-  branch: 2-3-stable
-  specs:
-    spree_hobrecht (2.3.1)
-      spree_core (~> 2.3.1)
-
-GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: 0be5116695a740be8c16686dd512f9405264379d
   branch: 2-3-stable
@@ -26,6 +18,12 @@ GIT
   specs:
     spree_gateway (2.3.0.beta)
       spree_core (~> 2.3.0)
+
+PATH
+  remote: ../SpreeExtensions/spree-hobrecht
+  specs:
+    spree_hobrecht (2.3.1)
+      spree_core (~> 2.3.1)
 
 GEM
   remote: https://rubygems.org/
