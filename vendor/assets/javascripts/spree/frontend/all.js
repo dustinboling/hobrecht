@@ -11,3 +11,4 @@
 
 //= require_tree .
 //= require spree/frontend/spree_hobrecht
+//= require spree/frontend/spree_mail_settings
