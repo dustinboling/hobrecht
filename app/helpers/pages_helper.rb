@@ -1,5 +1,4 @@
 module PagesHelper
-  current_store.url = "www.hobrecht.com"
 
   def title
   end
