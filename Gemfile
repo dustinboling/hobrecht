@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0',  group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',  group: :development
 
+gem 'sprockets-rails', '2.1.3', :require => 'sprockets/railtie'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -39,10 +41,9 @@ gem 'spring',  group: :development
 # gem 'debugger', group: [:development, :test]
 
 
-gem 'spree', '2.3.1'
+gem 'spree', '2.3.2'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
 gem 'spree_mail_settings', :git => 'https://github.com/dustinboling/spree_mail_settings.git', :branch => 'master'
 gem 'spree_hobrecht', :github => 'dustinboling/spree-hobrecht', :branch => '2-3-stable'
-#gem 'spree_hobrecht', :github => 'dustinboling/spree-hobrecht', :branch => 'master'
 #gem 'spree_hobrecht', :path => '../SpreeExtensions/spree-hobrecht'
