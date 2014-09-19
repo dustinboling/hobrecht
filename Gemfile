@@ -40,8 +40,7 @@ gem 'sprockets-rails', '2.1.3', :require => 'sprockets/railtie'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-
-gem 'spree', '2.3.2'
+gem 'spree', :git => 'https://github.com/spree/spree.git', :branch => '2-3-stable'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
 gem 'spree_mail_settings', :git => 'https://github.com/dustinboling/spree_mail_settings.git', :branch => 'master'
