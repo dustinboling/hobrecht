@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140905115951) do
+ActiveRecord::Schema.define(version: 20140925083622) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -59,6 +59,21 @@ ActiveRecord::Schema.define(version: 20140905115951) do
   add_index "spree_adjustments", ["eligible"], name: "index_spree_adjustments_on_eligible", using: :btree
   add_index "spree_adjustments", ["order_id"], name: "index_spree_adjustments_on_order_id", using: :btree
   add_index "spree_adjustments", ["source_id", "source_type"], name: "index_spree_adjustments_on_source_id_and_source_type", using: :btree
+
+  create_table "spree_affiliates", force: true do |t|
+    t.string "name"
+    t.string "path"
+    t.string "partial"
+    t.string "layout"
+  end
+
+  create_table "spree_affiliates_promotion_rules", force: true do |t|
+    t.integer "affiliate_id"
+    t.integer "promotion_rule_id"
+  end
+
+  add_index "spree_affiliates_promotion_rules", ["affiliate_id"], name: "index_spree_affiliates_promotion_rules_on_affiliate_id", using: :btree
+  add_index "spree_affiliates_promotion_rules", ["promotion_rule_id"], name: "index_spree_affiliates_promotion_rules_on_promotion_rule_id", using: :btree
 
   create_table "spree_assets", force: true do |t|
     t.integer  "viewable_id"
@@ -513,6 +528,21 @@ ActiveRecord::Schema.define(version: 20140905115951) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "spree_referrals", force: true do |t|
+    t.string  "code"
+    t.integer "user_id"
+  end
+
+  add_index "spree_referrals", ["user_id"], name: "index_spree_referrals_on_user_id", using: :btree
+
+  create_table "spree_referred_records", force: true do |t|
+    t.integer "user_id"
+    t.integer "referral_id"
+    t.integer "affiliate_id"
+  end
+
+  add_index "spree_referred_records", ["user_id", "referral_id", "affiliate_id"], name: "index_spree_referred_record_on_u_r_a", using: :btree
 
   create_table "spree_return_authorizations", force: true do |t|
     t.string   "number"

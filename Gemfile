@@ -47,3 +47,4 @@ gem 'spree_mail_settings', :git => 'https://github.com/dustinboling/spree_mail_s
 gem 'spree_hobrecht', :github => 'dustinboling/spree-hobrecht', :branch => '2-3-stable'
 #gem 'spree_hobrecht', :path => '../SpreeExtensions/spree-hobrecht'
 gem 'spree_static_content', github: 'spree/spree_static_content', branch: '2-3-stable'
+gem 'spree_reffiliate', github: 'kinduff/spree_reffiliate'

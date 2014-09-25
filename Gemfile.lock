@@ -7,6 +7,13 @@ GIT
       spree_core (~> 2.3.1)
 
 GIT
+  remote: git://github.com/kinduff/spree_reffiliate.git
+  revision: 4fcdd0ed916aa22d9df4a4780119ce47cae5ec10
+  specs:
+    spree_reffiliate (2.3.1)
+      spree_core (~> 2.3.1)
+
+GIT
   remote: git://github.com/spree/spree_static_content.git
   revision: b308a6148d3098eee17e3a2acf79d442d269d5dc
   branch: 2-3-stable
@@ -324,6 +331,7 @@ DEPENDENCIES
   spree_gateway!
   spree_hobrecht!
   spree_mail_settings!
+  spree_reffiliate!
   spree_static_content!
   spring
   sprockets-rails (= 2.1.3)
