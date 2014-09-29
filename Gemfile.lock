@@ -7,6 +7,14 @@ GIT
       spree_core (~> 2.3.1)
 
 GIT
+  remote: git://github.com/dustinboling/spree_magic_zoom_plus.git
+  revision: db0b87a0d833ad18e734ea99f721425b3a874bab
+  branch: 2-3-stable
+  specs:
+    spree_magic_zoom_plus (2.3.2)
+      spree_core (~> 2.3.2)
+
+GIT
   remote: git://github.com/kinduff/spree_reffiliate.git
   revision: 4fcdd0ed916aa22d9df4a4780119ce47cae5ec10
   specs:
@@ -31,7 +39,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree.git
-  revision: 6c8b39f20de537749e22f295c2b8889688ab87d3
+  revision: 187a407e8707f38558192b6ccffa64c771e5a684
   branch: 2-3-stable
   specs:
     spree (2.3.4.beta)
@@ -99,7 +107,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_gateway.git
-  revision: 4b43cd8546d36fbf632887fe613c48fd04007e7b
+  revision: 131bba3feb52242407d890927c8f588b87015ec8
   branch: 2-3-stable
   specs:
     spree_gateway (2.3.0.beta)
@@ -185,6 +193,7 @@ GEM
       warden (~> 1.2.3)
     devise-encryptable (0.1.2)
       devise (>= 2.1.0)
+    diffy (3.0.6)
     erubis (2.7.0)
     execjs (2.2.1)
     ffaker (1.25.0)
@@ -214,7 +223,7 @@ GEM
       mime-types (>= 1.16, < 3)
     mime-types (2.3)
     mini_portile (0.6.0)
-    minitest (5.4.1)
+    minitest (5.4.2)
     monetize (0.4.1)
       money (~> 6.2.1)
     money (6.2.1)
@@ -320,6 +329,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  diffy
   jbuilder (~> 2.0)
   jquery-rails
   pg
@@ -330,6 +340,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_gateway!
   spree_hobrecht!
+  spree_magic_zoom_plus!
   spree_mail_settings!
   spree_reffiliate!
   spree_static_content!
