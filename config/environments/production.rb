@@ -81,5 +81,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Disable Deface once precompiling is used to prevent overrides getting applied twice. 
-  config.deface.enabled = false
+  #config.deface.enabled = false
 end
