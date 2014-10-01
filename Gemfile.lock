@@ -39,7 +39,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree.git
-  revision: 3f7bc619725cee2e036bc1e84490db9f97a66824
+  revision: 37d7f61bac761ae684f66b3d2dab10e93b2669b2
   branch: 2-3-stable
   specs:
     spree (2.3.4.beta)
@@ -328,6 +328,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk
   coffee-rails (~> 4.0.0)
   diffy
   jbuilder (~> 2.0)

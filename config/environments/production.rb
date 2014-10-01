@@ -82,4 +82,11 @@ Rails.application.configure do
 
   # Disable Deface once precompiling is used to prevent overrides getting applied twice. 
   #config.deface.enabled = false
+
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => 'hobrechtmedia'
+    }
+  }
 end
