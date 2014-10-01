@@ -85,6 +85,7 @@ Rails.application.configure do
 
   config.paperclip_defaults = {
     :storage => :s3,
+    :url => 'https://s3.amazonaws.com/hobrechtmedia',
     :s3_credentials => {
       :bucket => 'hobrechtmedia'
     }
