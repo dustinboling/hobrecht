@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dustinboling/spree-hobrecht.git
-  revision: e9cdf85d1b3c158f3c9578d48a56f1a2769fd17b
+  revision: 8f1e0eefb983bb9082ee2e8dc55587528a2a636c
   branch: 2-3-stable
   specs:
     spree_hobrecht (2.3.1)
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/dustinboling/spree_magic_zoom_plus.git
-  revision: 2752ee93126db8adc51712a274ee58186acb7b6f
+  revision: 4c4e0f7e40bada794e2f738ef868ad7661251003
   branch: 2-3-stable
   specs:
     spree_magic_zoom_plus (2.3.2)
@@ -39,7 +39,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree.git
-  revision: 37d7f61bac761ae684f66b3d2dab10e93b2669b2
+  revision: 8de441fc5177bf1a8b6574bcdcba0bc992530a69
   branch: 2-3-stable
   specs:
     spree (2.3.4.beta)
