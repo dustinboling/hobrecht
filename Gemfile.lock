@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dustinboling/spree-hobrecht.git
-  revision: 91255da0399bf5158ce4a54ebdfd3e748fa48b5e
+  revision: 0166a47e3712cd90214c29fb09e72e8ba327463e
   branch: 2-4-stable
   specs:
     spree_hobrecht (2.4.2)
@@ -32,15 +32,15 @@ GIT
 
 GIT
   remote: git://github.com/spree-contrib/spree_static_content.git
-  revision: 2e5d4a4de578ef12c277433bd354d2e60091cec1
+  revision: 2455a91a2d940189979cb219790eb2063c371204
   branch: 2-4-stable
   specs:
     spree_static_content (2.3.0)
-      spree_core (~> 2.4.0.beta)
+      spree_core (~> 2.4.0)
 
 GIT
   remote: https://github.com/spree/spree.git
-  revision: d085dd1e0be8fa6cd4e3fbb536a5ae2325c5bfc6
+  revision: 54f00eacb19d7861f9b76166c300e14650045eee
   branch: 2-4-stable
   specs:
     spree (2.4.3.beta)
@@ -76,7 +76,7 @@ GIT
       httparty (~> 0.11)
       json (~> 1.7)
       kaminari (~> 0.15, >= 0.15.1)
-      monetize
+      monetize (~> 1.1)
       paperclip (~> 4.2.0)
       paranoia (~> 2.0)
       premailer-rails
@@ -155,15 +155,15 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    acts_as_list (0.5.0)
+    acts_as_list (0.6.0)
       activerecord (>= 3.0)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
-    awesome_nested_set (3.0.1)
+    awesome_nested_set (3.0.2)
       activerecord (>= 4.0.0, < 5)
-    aws-sdk (1.59.1)
-      aws-sdk-v1 (= 1.59.1)
-    aws-sdk-v1 (1.59.1)
+    aws-sdk (1.60.2)
+      aws-sdk-v1 (= 1.60.2)
+    aws-sdk-v1 (1.60.2)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
     bcrypt (3.1.9)
@@ -206,19 +206,19 @@ GEM
     diffy (3.0.7)
     erubis (2.7.0)
     execjs (2.2.2)
-    ffaker (1.25.0)
+    ffaker (1.30.0)
     font-awesome-rails (4.2.0.0)
       railties (>= 3.2, < 5.0)
     friendly_id (5.0.4)
       activerecord (>= 4.0.0)
     highline (1.6.21)
     hike (1.2.3)
-    htmlentities (4.3.2)
+    htmlentities (4.3.3)
     httparty (0.13.3)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
-    i18n (0.6.11)
-    jbuilder (2.2.5)
+    i18n (0.7.0)
+    jbuilder (2.2.6)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
     jquery-rails (3.1.2)
@@ -226,19 +226,19 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (5.0.3)
       railties (>= 3.2.16)
-    json (1.8.1)
+    json (1.8.2)
     kaminari (0.16.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.4.3)
-    mini_portile (0.6.1)
+    mini_portile (0.6.2)
     minitest (5.5.0)
-    monetize (1.0.0)
-      money (~> 6.4.0)
-    money (6.4.0)
-      i18n (>= 0.6.4, <= 0.7.0.beta1)
+    monetize (1.1.0)
+      money (~> 6.5.0)
+    money (6.5.0)
+      i18n (>= 0.6.4, <= 0.7.0)
     multi_json (1.10.1)
     multi_xml (0.5.5)
     nokogiri (1.6.5)
@@ -259,7 +259,7 @@ GEM
       mime-types
     paranoia (2.0.4)
       activerecord (~> 4.0)
-    pg (0.17.1)
+    pg (0.18.1)
     polyamorous (1.1.0)
       activerecord (>= 3.0)
     polyglot (0.3.5)
@@ -327,14 +327,14 @@ GEM
     truncate_html (0.9.2)
     turbolinks (2.5.3)
       coffee-rails
-    twitter_cldr (3.1.0)
+    twitter_cldr (3.1.1)
       camertron-eprun
       cldr-plurals-runtime-rb (~> 1.0.0)
       json
       tzinfo
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (2.6.0)
+    uglifier (2.7.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     unicode_utils (1.4.0)
