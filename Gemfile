@@ -43,6 +43,6 @@ gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: 
 gem 'spree_hobrecht', github: 'dustinboling/spree-hobrecht', branch: '2-4-stable'
 #gem 'spree_hobrecht', :path => '../SpreeExtensions/spree-hobrecht'
 #gem 'spree_magic_zoom_plus', :path => '../SpreeExtensions/spree_magic_zoom_plus'
-# gem 'spree_magic_zoom_plus', github: 'dustinboling/spree_magic_zoom_plus', branch: '2-4-stable'
-#gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '2-4-stable'
+gem 'spree_magic_zoom_plus', github: 'dustinboling/spree_magic_zoom_plus', branch: '2-4-stable'
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '2-4-stable'
 gem 'spree_reffiliate', github: 'dustinboling/spree_reffiliate', branch: '2-4-stable'
