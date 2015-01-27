@@ -4,7 +4,7 @@ ruby '2.2.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Heroku
-gem 'rails_12factor', group: :production
+#gem 'rails_12factor', group: :production
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -40,8 +40,8 @@ gem 'spree', github: 'spree/spree', branch: '2-4-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '2-4-stable'
-gem 'spree_hobrecht', github: 'dustinboling/spree-hobrecht', branch: '2-4-stable'
 #gem 'spree_hobrecht', :path => '../SpreeExtensions/spree-hobrecht'
+gem 'spree_hobrecht', github: 'dustinboling/spree-hobrecht', branch: '2-4-stable'
 #gem 'spree_magic_zoom_plus', :path => '../SpreeExtensions/spree_magic_zoom_plus'
 gem 'spree_magic_zoom_plus', github: 'dustinboling/spree_magic_zoom_plus', branch: '2-4-stable'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '2-4-stable'
