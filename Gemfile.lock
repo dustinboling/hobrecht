@@ -23,6 +23,14 @@ GIT
       spree_core (>= 2.3.1)
 
 GIT
+  remote: git://github.com/dustinboling/spree_slider.git
+  revision: 49532e5d401d2d510e93a27599831bdb4d84704d
+  branch: 2-4-beta
+  specs:
+    spree_slider (1.2.0)
+      spree_core (>= 2.2)
+
+GIT
   remote: git://github.com/spree-contrib/spree_mail_settings.git
   revision: 51fce39805993363b2a13bdf1840cf18b57f3600
   branch: 2-4-stable
@@ -363,6 +371,7 @@ DEPENDENCIES
   spree_magic_zoom_plus!
   spree_mail_settings!
   spree_reffiliate!
+  spree_slider!
   spree_static_content!
   spring
   sprockets-rails (= 2.1.3)

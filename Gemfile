@@ -46,3 +46,4 @@ gem 'spree_hobrecht', github: 'dustinboling/spree-hobrecht', branch: '2-4-stable
 gem 'spree_magic_zoom_plus', github: 'dustinboling/spree_magic_zoom_plus', branch: '2-4-stable'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '2-4-stable'
 gem 'spree_reffiliate', github: 'dustinboling/spree_reffiliate', branch: '2-4-stable'
+gem 'spree_slider', github: 'dustinboling/spree_slider', branch: '2-4-beta'
