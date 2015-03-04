@@ -35,7 +35,7 @@ gem 'diffy', group: :development
 # gem 'capistrano-rails', group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'aws-sdk'
+gem 'aws-sdk-v1'
 gem 'spree', github: 'spree/spree', branch: '2-4-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
