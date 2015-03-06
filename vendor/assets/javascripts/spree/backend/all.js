@@ -13,3 +13,4 @@
 //= require spree/backend/spree_hobrecht
 //= require spree/backend/spree_mail_settings
 //= require spree/backend/spree_magic_zoom_plus
+//= require ckeditor/init

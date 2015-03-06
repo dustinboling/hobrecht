@@ -8,3 +8,4 @@ Rails.application.config.assets.version = '1.4'
 # Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w( store/gateway/stripe.js )
 Rails.application.config.assets.precompile += %w( ckeditor/* )
+Rails.application.config.assets.precompile += %w( tinymce-jquery.js )
