@@ -93,9 +93,9 @@ Rails.application.configure do
     },
 
     :styles => {
-      :mini => "48x48>",
-      :small => "100x100>",
-      :medium => "460x300>",
+      :mini => "48x48#",
+      :small => "100x100#",
+      :medium => "460x300#",
       :product => "580x580>",
       :large => "600x600>"
     }
