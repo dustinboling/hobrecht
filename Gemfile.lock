@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/dustinboling/spree-hobrecht.git
-  revision: b3df41ee9a3f740d0c6fe87b15dec443397a5d8d
-  branch: 2-4-beta
+  revision: e7a7f50e3ea1088eb7a21bf9af872cc13a0f6d43
+  branch: 2-4-stable
   specs:
     spree_hobrecht (2.4.2)
       spree_core (>= 2.4.2)
@@ -32,11 +32,11 @@ GIT
 
 GIT
   remote: git://github.com/spree-contrib/spree_editor.git
-  revision: 08a3a9383bbc28fe380186e6ed47d5444ea78f30
+  revision: 1817ec3b2aee26ef6ce968750507a213a2fe972a
   branch: 2-4-stable
   specs:
     spree_editor (2.2.1)
-      ckeditor (~> 4.0.11)
+      ckeditor (~> 4.1.1)
       spree_backend (~> 2.4.0)
       tinymce-rails (~> 4.0.16)
 
@@ -58,29 +58,29 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree.git
-  revision: 2c6b8da4d5d6cf4d9d5bd2dc2b205af6f902885b
+  revision: 6759ebfb4fde7695f54c2179bf5623dfe3879042
   branch: 2-4-stable
   specs:
-    spree (2.4.6.beta)
-      spree_api (= 2.4.6.beta)
-      spree_backend (= 2.4.6.beta)
-      spree_cmd (= 2.4.6.beta)
-      spree_core (= 2.4.6.beta)
-      spree_frontend (= 2.4.6.beta)
-      spree_sample (= 2.4.6.beta)
-    spree_api (2.4.6.beta)
+    spree (2.4.7.beta)
+      spree_api (= 2.4.7.beta)
+      spree_backend (= 2.4.7.beta)
+      spree_cmd (= 2.4.7.beta)
+      spree_core (= 2.4.7.beta)
+      spree_frontend (= 2.4.7.beta)
+      spree_sample (= 2.4.7.beta)
+    spree_api (2.4.7.beta)
       rabl (~> 0.9.4.pre1)
-      spree_core (= 2.4.6.beta)
+      spree_core (= 2.4.7.beta)
       versioncake (~> 2.3.1)
-    spree_backend (2.4.6.beta)
+    spree_backend (2.4.7.beta)
       jquery-rails (~> 3.1.2)
       jquery-ui-rails (~> 5.0.0)
       select2-rails (= 3.5.9.1)
-      spree_api (= 2.4.6.beta)
-      spree_core (= 2.4.6.beta)
-    spree_cmd (2.4.6.beta)
+      spree_api (= 2.4.7.beta)
+      spree_core (= 2.4.7.beta)
+    spree_cmd (2.4.7.beta)
       thor (~> 0.14)
-    spree_core (2.4.6.beta)
+    spree_core (2.4.7.beta)
       activemerchant (~> 1.44.1)
       acts_as_list (~> 0.3)
       awesome_nested_set (~> 3.0.1)
@@ -104,13 +104,13 @@ GIT
       stringex (~> 1.5.1)
       truncate_html (= 0.9.2)
       twitter_cldr (~> 3.0)
-    spree_frontend (2.4.6.beta)
+    spree_frontend (2.4.7.beta)
       canonical-rails (~> 0.0.4)
       jquery-rails (~> 3.1.2)
-      spree_api (= 2.4.6.beta)
-      spree_core (= 2.4.6.beta)
-    spree_sample (2.4.6.beta)
-      spree_core (= 2.4.6.beta)
+      spree_api (= 2.4.7.beta)
+      spree_core (= 2.4.7.beta)
+    spree_sample (2.4.7.beta)
+      spree_core (= 2.4.7.beta)
 
 GIT
   remote: git://github.com/spree/spree_auth_devise.git
@@ -185,12 +185,12 @@ GEM
     builder (3.2.2)
     camertron-eprun (1.1.0)
     cancancan (1.9.2)
-    canonical-rails (0.0.7)
+    canonical-rails (0.0.8)
       rails (>= 3.1, < 5.0)
     carmen (1.0.1)
       unicode_utils (~> 1.4.0)
-    ckeditor (4.0.11)
-      mime-types
+    ckeditor (4.1.1)
+      cocaine
       orm_adapter (~> 0.5.0)
     cldr-plurals-runtime-rb (1.0.0)
     climate_control (0.0.3)
@@ -235,7 +235,7 @@ GEM
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
-    jbuilder (2.2.9)
+    jbuilder (2.2.11)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
     jquery-rails (3.1.2)
@@ -338,7 +338,7 @@ GEM
     state_machine (1.2.0)
     stringex (1.5.1)
     thor (0.19.1)
-    thread_safe (0.3.4)
+    thread_safe (0.3.5)
     tilt (1.4.1)
     tinymce-rails (4.0.28.2)
       railties (>= 3.1.1)

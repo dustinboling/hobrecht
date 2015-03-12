@@ -42,7 +42,7 @@ gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '2-4-stable'
 
 # Github
-gem 'spree_hobrecht', github: 'dustinboling/spree-hobrecht', branch: '2-4-beta'
+gem 'spree_hobrecht', github: 'dustinboling/spree-hobrecht', branch: '2-4-stable'
 gem 'spree_slider', github: 'dustinboling/spree_slider', branch: '2-4-beta'
 
 # Local
