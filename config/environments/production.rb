@@ -90,6 +90,14 @@ Rails.application.configure do
       :bucket => ENV["AWS_BUCKET"],
       :access_key_id => ENV["AWS_ACCESS_KEY_ID"],
       :secret_access_key => ENV["AWS_SECRET_KEY_ID"]
+    },
+
+    :styles => {
+      :mini => "48x48>",
+      :small => "100x100>",
+      :medium => "460x300>",
+      :product => "580x580>",
+      :large => "600x600>"
     }
   }
 end
