@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dustinboling/spree-hobrecht.git
-  revision: 0566dad3b25fac7210ddd81b4723f59bc35bbb2a
+  revision: fce5a7c570b70b6c6d91655befd15fff1f3fc7e7
   branch: develop
   specs:
     spree_hobrecht (2.4.2)
@@ -58,7 +58,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree.git
-  revision: 6759ebfb4fde7695f54c2179bf5623dfe3879042
+  revision: 19307ae78c0757d254a82c62bdf246263b177794
   branch: 2-4-stable
   specs:
     spree (2.4.7.beta)
@@ -98,7 +98,7 @@ GIT
       paperclip (~> 4.2.0)
       paranoia (~> 2.0.5)
       premailer-rails
-      rails (~> 4.1.8)
+      rails (= 4.1.9)
       ransack (~> 1.4.1)
       state_machine (= 1.2.0)
       stringex (~> 1.5.1)
@@ -126,7 +126,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_gateway.git
-  revision: f84c5f9b3fcc1107378e47be07538e8a6ca51182
+  revision: 747971a1c34f10fe784c8825440e24d14c8a0990
   branch: 2-4-stable
   specs:
     spree_gateway (2.4.0)
@@ -187,8 +187,8 @@ GEM
     cancancan (1.9.2)
     canonical-rails (0.0.8)
       rails (>= 3.1, < 5.0)
-    carmen (1.0.1)
-      unicode_utils (~> 1.4.0)
+    carmen (1.0.2)
+      activesupport (>= 3.0.0)
     ckeditor (4.1.1)
       cocaine
       orm_adapter (~> 0.5.0)
@@ -235,7 +235,7 @@ GEM
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
-    jbuilder (2.2.11)
+    jbuilder (2.2.12)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
     jquery-rails (3.1.2)
@@ -355,7 +355,6 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    unicode_utils (1.4.0)
     versioncake (2.3.1)
       actionpack (>= 3.2)
       activesupport (>= 3.2)
