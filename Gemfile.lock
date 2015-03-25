@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/dustinboling/spree_magic_zoom_plus.git
-  revision: 39b9705a50ebeb3e493bad1956e76505df1100a2
+  revision: 5593103d7b53a8e27ee7002df4552b7c373c3e79
   branch: 2-4-stable
   specs:
     spree_magic_zoom_plus (2.4.2)
