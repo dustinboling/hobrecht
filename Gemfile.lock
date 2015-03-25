@@ -1,14 +1,14 @@
 GIT
   remote: git://github.com/dustinboling/spree-hobrecht.git
   revision: 0566dad3b25fac7210ddd81b4723f59bc35bbb2a
-  branch: 2-4-stable
+  branch: develop
   specs:
     spree_hobrecht (2.4.2)
       spree_core (>= 2.4.2)
 
 GIT
   remote: git://github.com/dustinboling/spree_magic_zoom_plus.git
-  revision: 096bae33bffe6bfe351b325290daed667e686e5d
+  revision: 39b9705a50ebeb3e493bad1956e76505df1100a2
   branch: 2-4-stable
   specs:
     spree_magic_zoom_plus (2.4.2)
@@ -135,17 +135,17 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    actionmailer (4.1.8)
-      actionpack (= 4.1.8)
-      actionview (= 4.1.8)
+    actionmailer (4.1.9)
+      actionpack (= 4.1.9)
+      actionview (= 4.1.9)
       mail (~> 2.5, >= 2.5.4)
-    actionpack (4.1.8)
-      actionview (= 4.1.8)
-      activesupport (= 4.1.8)
+    actionpack (4.1.9)
+      actionview (= 4.1.9)
+      activesupport (= 4.1.9)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
-    actionview (4.1.8)
-      activesupport (= 4.1.8)
+    actionview (4.1.9)
+      activesupport (= 4.1.9)
       builder (~> 3.1)
       erubis (~> 2.7.0)
     active_utils (2.2.3)
@@ -159,14 +159,14 @@ GEM
       json (~> 1.7)
       nokogiri (~> 1.4)
       offsite_payments (~> 2.0.0)
-    activemodel (4.1.8)
-      activesupport (= 4.1.8)
+    activemodel (4.1.9)
+      activesupport (= 4.1.9)
       builder (~> 3.1)
-    activerecord (4.1.8)
-      activemodel (= 4.1.8)
-      activesupport (= 4.1.8)
+    activerecord (4.1.9)
+      activemodel (= 4.1.9)
+      activesupport (= 4.1.9)
       arel (~> 5.0.0)
-    activesupport (4.1.8)
+    activesupport (4.1.9)
       i18n (~> 0.6, >= 0.6.9)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -291,19 +291,19 @@ GEM
     rack (1.5.2)
     rack-test (0.6.3)
       rack (>= 1.0)
-    rails (4.1.8)
-      actionmailer (= 4.1.8)
-      actionpack (= 4.1.8)
-      actionview (= 4.1.8)
-      activemodel (= 4.1.8)
-      activerecord (= 4.1.8)
-      activesupport (= 4.1.8)
+    rails (4.1.9)
+      actionmailer (= 4.1.9)
+      actionpack (= 4.1.9)
+      actionview (= 4.1.9)
+      activemodel (= 4.1.9)
+      activerecord (= 4.1.9)
+      activesupport (= 4.1.9)
       bundler (>= 1.3.0, < 2.0)
-      railties (= 4.1.8)
+      railties (= 4.1.9)
       sprockets-rails (~> 2.0)
-    railties (4.1.8)
-      actionpack (= 4.1.8)
-      activesupport (= 4.1.8)
+    railties (4.1.9)
+      actionpack (= 4.1.9)
+      activesupport (= 4.1.9)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
@@ -374,7 +374,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   pg
-  rails (= 4.1.8)
+  rails (= 4.1.9)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spree!
