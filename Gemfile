@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.9'
+gem 'rails', '4.1.10'
 # Heroku
 #gem 'rails_12factor', group: :production
 # Use postgresql as the database for Active Record
