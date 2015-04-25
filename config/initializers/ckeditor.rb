@@ -6,6 +6,9 @@ Ckeditor.setup do |config|
   # available as additional gems.
   require "ckeditor/orm/active_record"
 
+  # Secure file uploads to only be accessed by admins
+  config.authorize_with :cancan, Spree::Ability
+
   # Allowed image file types for upload.
   # Set to nil or [] (empty array) for all file types
   # By default: %w(jpg jpeg png gif tiff)
