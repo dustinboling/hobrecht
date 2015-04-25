@@ -1,12 +1,12 @@
 development:
   rails:
-    server:
-      unique_name: hobrecht-web
+    configuration:
+      ruby_version: 2.2.0
       extra_packages:
         - imagemagick
 production:
   rails:
-    server:
-      unique_name: hobrecht-web
+    configuration:
+      ruby_version: 2.2.0
       extra_packages:
         - imagemagick
