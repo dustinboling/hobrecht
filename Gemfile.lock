@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/dustinboling/spree-hobrecht.git
+  revision: df99ac5c7499ff5d7eb90e8eab95ac6527d4716c
+  branch: 2-4-stable
+  specs:
+    spree_hobrecht (2.4.2)
+      spree_core (>= 2.4.2)
+
+GIT
   remote: git://github.com/dustinboling/spree_magic_zoom_plus.git
   revision: a258a75b8052fb0fcdc7505c5d4acb37d6f99078
   branch: 2-4-stable
@@ -13,6 +21,14 @@ GIT
   specs:
     spree_reffiliate (2.3.1)
       spree_core (>= 2.3.1)
+
+GIT
+  remote: git://github.com/dustinboling/spree_slider.git
+  revision: 4a66744811b9ac00adbf507abed1f3df505948b3
+  branch: 2-4-beta
+  specs:
+    spree_slider (1.2.0)
+      spree_core (>= 2.2)
 
 GIT
   remote: git://github.com/spree-contrib/spree_editor.git
@@ -115,18 +131,6 @@ GIT
   specs:
     spree_gateway (2.4.0)
       spree_core (~> 2.4.0)
-
-PATH
-  remote: ../SpreeExtensions/spree-hobrecht
-  specs:
-    spree_hobrecht (2.4.2)
-      spree_core (>= 2.4.2)
-
-PATH
-  remote: ../SpreeExtensions/spree_slider
-  specs:
-    spree_slider (1.2.0)
-      spree_core (>= 2.2)
 
 GEM
   remote: https://rubygems.org/
