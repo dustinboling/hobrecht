@@ -23,7 +23,7 @@ gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: 
 
 # Remote
 gem 'spree_hobrecht', github: 'dustinboling/spree-hobrecht', branch: '2-4-stable'
-gem 'spree_slider', github: 'dustinboling/spree_slider', branch: '2-4-beta'
+gem 'spree_slider', github: 'dustinboling/spree_slider', branch: 'master'
 gem 'spree_magic_zoom_plus', github: 'dustinboling/spree_magic_zoom_plus', branch: '2-4-stable'
 
 # Local

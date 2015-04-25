@@ -12,10 +12,5 @@
  *= require spree/frontend/spree_mail_settings
  *= require spree/frontend/spree_static_content
  *= require spree/frontend/spree_magic_zoom_plus
- * require themes/default/default
- * require themes/pascal/pascal
- * require themes/orman/orman
- * require nivo-slider
- *= require ideal-image-slider
- *= require themes/default/default
+ *= require jquery.bxslider
 */
