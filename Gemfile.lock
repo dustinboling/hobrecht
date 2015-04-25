@@ -24,7 +24,7 @@ GIT
 
 GIT
   remote: git://github.com/dustinboling/spree_slider.git
-  revision: 4a66744811b9ac00adbf507abed1f3df505948b3
+  revision: e2e44844c7d66710c1407baa89babed5c16b644f
   branch: 2-4-beta
   specs:
     spree_slider (1.2.0)
