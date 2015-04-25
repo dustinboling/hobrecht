@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dustinboling/spree-hobrecht.git
-  revision: 69971c1d5205ef056edcf893abea552c1521882d
+  revision: df99ac5c7499ff5d7eb90e8eab95ac6527d4716c
   branch: 2-4-stable
   specs:
     spree_hobrecht (2.4.2)
