@@ -21,7 +21,7 @@ gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '2-4-stable'
 
-# Github
+# Remote
 gem 'spree_hobrecht', github: 'dustinboling/spree-hobrecht', branch: '2-4-stable'
 gem 'spree_slider', github: 'dustinboling/spree_slider', branch: '2-4-beta'
 gem 'spree_magic_zoom_plus', github: 'dustinboling/spree_magic_zoom_plus', branch: '2-4-stable'
