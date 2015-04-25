@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dustinboling/spree-hobrecht.git
-  revision: 16db382fc97b09c25de8974fc2184c7bc3f6c4a3
+  revision: 062954d066835276f57ca0544e01fc6809f7e47d
   branch: 2-4-stable
   specs:
     spree_hobrecht (2.4.2)
@@ -24,7 +24,7 @@ GIT
 
 GIT
   remote: git://github.com/dustinboling/spree_slider.git
-  revision: 62edc11f9813f90b35e0a117a1dfe1d4261584a1
+  revision: c765a1e8387dea26be4c6e9e82230efcc05e8b89
   branch: master
   specs:
     spree_slider (1.2.0)
