@@ -13,7 +13,5 @@
 //= require spree/frontend/spree_hobrecht
 //= require spree/frontend/spree_mail_settings
 //= require spree/frontend/spree_magic_zoom_plus
-// require jquery.nivo.slider.pack.js
-//= require ideal-image-slider.min.js
-//= require extensions/captions/iis-captions
-//= require extensions/bullet-nav/iis-bullet-nav
+//= require vendor/jquery.easing.1.3.js
+//= require jquery.bxslider.min.js
