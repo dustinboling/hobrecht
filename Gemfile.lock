@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dustinboling/spree-hobrecht.git
-  revision: 860ea0a6b85e2a6ef00e4289751d8d17f61bb98f
+  revision: 87a141e2fe05e2ab3d5cdd1bdeec0e2fd4a71898
   branch: 2-4-stable
   specs:
     spree_hobrecht (2.4.2)
@@ -251,7 +251,7 @@ GEM
       mime-types (>= 1.16, < 3)
     mime-types (2.5)
     mini_portile (0.6.2)
-    minitest (5.6.0)
+    minitest (5.6.1)
     monetize (1.2.0)
       money (~> 6.5.0)
     money (6.5.1)
