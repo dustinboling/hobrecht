@@ -35,4 +35,3 @@ gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch
 gem 'spree_reffiliate', github: 'dustinboling/spree_reffiliate', branch: '2-4-stable'
 #gem 'spree_related_products', github: 'spree-contrib/spree_related_products', branch: '2-4-stable'
 gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: '2-4-stable'
-
